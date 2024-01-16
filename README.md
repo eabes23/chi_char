@@ -3,7 +3,7 @@ The R script Calculate_Chirality_Charecteristic.R contains a function to calcula
 the paper "Molecular Chirality Quantification: Tools and Benchmarks."
 
 The function requires a table in which the rows the (ordered) atoms and columns x,y, and z report cartesion coordinates. 
-Such tables can easily be prepared from xyz files. See examples below.
+Such tables can easily be prepared from xyz files. See examples:
 
 atom x y x  
 1 0.00 0.00 0.00  
