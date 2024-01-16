@@ -5,7 +5,7 @@ the paper "Molecular Chirality Quantification: Tools and Benchmarks."
 The function requires a table in which the rows the (ordered) atoms and columns x,y, and z report cartesion coordinates. 
 Such tables can easily be prepared from xyz files. See examples below.
 
-atom x y x
+atom x y x  
 1 0.00 0.00 0.00  
 2 0.22 0.53 0.53  
 3 0.44 0.34 1.21  
@@ -14,7 +14,7 @@ atom x y x
 
 OR
 
-x y x
+x y x  
 0.00 0.00 0.00  
 0.22 0.53 0.53  
 0.44 0.34 1.21  
@@ -23,7 +23,7 @@ x y x
 
 OR 
 
-atom x y x
+atom x y x  
 C 0.00 0.00 0.00   
 C 0.22 0.53 0.53  
 C 0.44 0.34 1.21
