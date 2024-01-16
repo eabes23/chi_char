@@ -5,9 +5,9 @@ chiChar <- function(atom_table) {
   
   # Requires atom_table with rows corresponding to ordered reference
   # points and columns x,y,z specifying the corresponding cartesian coordinates.
+  # See README.md for details.
   
-  # Returns Chirality Charecteristic (i.e. Eq. 2 of paper "Molecular Chirality 
-  # Quantification: Tools and Benchmarks")
+  # Returns Chirality Charecteristic
   
   # First calculate separation vectors
   x_sep <- rep(0, length(atom_table$x) - 1)
