@@ -30,9 +30,9 @@ chiChar <- function(atom_table) {
   # Calculate numerator, i.e. the scalar-triple-product chirality measure 
   res <- 0
   for (i in 1:(length(x_sep) - 2)) {
-    res <- res + (x_sep[i]*y_sep[i+1] - x_sep[i+1]*y_sep[i])*z_sep[i+2]
-    +(y_sep[i]*z_sep[i+1]-y_sep[i+1]*z_sep[i])*x_sep[i+2]
-    +(z_sep[i]*x_sep[i+1]-z_sep[i+1]*x_sep[i])*y_sep[i+2]
+    res <- (res + (x_sep[i]*y_sep[i+1] - x_sep[i+1]*y_sep[i])*z_sep[i+2]
+      + (y_sep[i]*z_sep[i+1]-y_sep[i+1]*z_sep[i])*x_sep[i+2]
+      + (z_sep[i]*x_sep[i+1]-z_sep[i+1]*x_sep[i])*y_sep[i+2] )
   }
   
   return(res/sum_dist)
